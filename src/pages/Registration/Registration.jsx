@@ -1,11 +1,13 @@
 import React from 'react'
 import "./regis.css"
-import {Link} from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
+
 function Registration() {
-    
+    const navigate = useNavigate()
     function succ() {
         alert(`Congratulations on your successful registration!          
         i'm excited to collaborate and achieve great things together with qemer tech company`)
+        navigate("/")
     }
   return (
     <>
