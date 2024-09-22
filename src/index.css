@@ -27,7 +27,6 @@ header {
 
 
 
-
 *,
 *::before,
 *::after {
@@ -41,6 +40,7 @@ header {
   display: grid;
   place-items: center;
   height: 100vh;
+  margin-top: 80px;
 }
 
 .containerr {
@@ -129,11 +129,13 @@ img {
   text-decoration: none;
   list-style: none;
   color: darkslategray;
+  size: 14px;
 }
 .register{
   border: solid 1px lightgray;
   border-radius: 10px;
-  padding: 15px;
+  padding: 7px;
+  size: 17px;
   color: darkslategray;
 }
 .register :hover{
